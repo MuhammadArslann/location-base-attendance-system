@@ -1,5 +1,5 @@
 let mongoose = require('mongoose');
-// this is the location file related to database
+
 let locationSchema=mongoose.Schema({
     address:String,
     position: {
