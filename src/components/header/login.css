@@ -1,0 +1,19 @@
+.modal{
+    background-color: transparent !important;
+    max-height: none !important;
+    box-shadow: none;
+    width: 45%;
+}
+.modal .modal-content {
+    padding: 0px !important;
+}
+.container-login {
+    height: auto;
+    box-sizing: border-box;
+}
+.lighten-4{
+    border: 5px solid#7e221b !important;
+}
+.indigo {
+    background-color: #7e221b !important;
+}

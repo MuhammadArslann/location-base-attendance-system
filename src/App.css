@@ -1,0 +1,27 @@
+.flow{
+  overflow: auto !important;
+}
+
+table td{
+  color:white;
+}
+
+table thead tr{
+  color:white;
+  background-color: black;
+}
+
+table{
+   background: rgb(165 42 42 / 65%);
+}
+
+.i-block{
+  display: inline-block;
+}
+
+body{
+  /* background-image: url(images/Background.png);
+  background-size: cover; */
+  background-color: brown;
+}
+

@@ -1,0 +1,32 @@
+#menuComponent ul{
+    list-style-type: none;
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #660a0b;
+    padding: 72px;
+    border-radius: 14px;
+    border: 1px solid;
+    box-shadow: 0 0 20px 10px white;
+}
+
+#menuComponent li:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+#menuComponent li a{
+    color: black;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+}
+
+#menuComponent li{
+    background-color: #fb6e53;
+    /* padding: 10px 70px 10px 70px; */
+    margin-top: 2px;
+}

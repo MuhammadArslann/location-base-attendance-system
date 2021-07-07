@@ -1,0 +1,10 @@
+.marker{
+    width:50px;
+    position: relative;
+    top:-20px;
+    left:-20px;
+}
+
+.location-main{
+    margin:auto;
+}

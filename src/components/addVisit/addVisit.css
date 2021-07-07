@@ -1,0 +1,7 @@
+div#addVisitModal{
+    background-color: white !important;
+}
+
+#addVisitModal select{
+    display: initial !important;
+}
