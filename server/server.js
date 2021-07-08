@@ -52,7 +52,7 @@ mongoose.connect('mongodb://localhost:27017/DemoUsers', (err, connection) => {
 myApp.post('/checksession', async function (req, res) {
     // console.log(req.body.token);
     var decoded = jwt_decode(req.body.token);
-    // console.log(decoded);
+    console.log(decoded);
     if (decoded.id) {
         DemoUsers.findOne({ _id: decoded.id }, function (err, docs) {
             res.send(docs);
